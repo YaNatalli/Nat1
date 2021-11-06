@@ -1,0 +1,221 @@
+Alex@Acer5742g MINGW64 /d/Pr_1
+$ "1.посмотреть,где я=>" pwd
+/d/Pr_1
+
+Alex@Acer5742g MINGW64 /d/Pr_1
+$ "2. Создать папку" mkdir P_1
+
+Alex@Acer5742g MINGW64 /d/Pr_1
+$ "3.3айти в папку" cd P_1
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1
+$ "4. Создать три папки" mkdir Pap_1 Pap_2 Pap_3
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1
+$ "5. Зайти в созданную папку Рар_2" cd Pap_2
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2
+$ "6.Cоздать 5 файлов" touch 1.txt 2.txt 3.txt 4.json 5.json
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2
+$ "7. Создать три папки" mkdir {00..2}
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2
+$ "8. Просмотреть содержимое папки" ls -la
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 30 18:50 ./
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:52 ../
+drwxr-xr-x 1 Alex 197121 0 Oct 30 18:43 01/
+drwxr-xr-x 1 Alex 197121 0 Oct 30 18:43 02/
+drwxr-xr-x 1 Alex 197121 0 Oct 30 18:43 03/
+-rw-r--r-- 1 Alex 197121 0 Oct 30 17:57 1.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 30 17:57 2.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 30 17:57 3.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 30 17:57 4.json
+-rw-r--r-- 1 Alex 197121 0 Oct 30 17:57 5.json
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2
+$ "8. Просмотреть содержимое папки Pr_1" ls -al /d/Pr_1
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:48 ./
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:43 ../
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:52 P_1/
+ "9. Открыть файл 3.тхт для редактирования" vim 3.txt
+ "10. Написать в файле что-нибудь" i
+ "11. Cохранить запись и выйти" нажать Esc :wq нажать Enter
+ "12. Выйти из папки на уровень выше" cd ..
+ "13. Переместить любые два созданных файла в любую другую папку"
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1
+$ mv test_1.txt test_2.txt Pap_1
+
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2
+$ "14. Скопировать 2 файла в папку Р_1" cp 1.txt 2.txt /d/Pr_1/P_1/
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1
+$ "15. Найти по имени файла" find . -name 1.txt
+./1.txt
+./Pap_2/1.txt
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2/01
+$ "16. Просмотреть содержимое файла 3.txt в реальном времени" tail -f 3.txt
+1) Hello
+2) Oll rite
+3. Что-то пошло не так
+4. В следующий раз нужно быть внимательней
+5. Буду)))
+6.Добавлю еще одну строку
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2/01
+$ "17. Вывести 3 первых строчки из файла 3.txt" head -3 3.txt
+1) Hello
+2) Oll rite
+3. Что-то пошло не так
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2/01
+$ "18. Вывести 3 последних строчки из файла 3.txt" tail -3 3.txt
+4. В следующий раз нужно быть внимательней
+5. Буду)))
+6.Добавлю еще одну строку
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2/01
+$ "19. Просмотр содержимого пфайла Praktika.txt. Изучены команды перемещения по файлу d,b,h,q b и др." less Praktika.txt
+
+Alex@Acer5742g MINGW64 /d/Pr_1/P_1/Pap_2/01
+$ "20. Вывести дату и время" date
+Sun Oct 31 12:31:51     2021
+
+=========================================
+НЕ СОВСЕМ ВЕРНО БЫЛО В 12, а соответственно в 13 и 14. Я это СДЕЛАЛА!!!!!!
+$ "1.посмотреть,где я=>" pwd
+/d/Dubl_1
+
+$ "2. Создать папку" mkdir 1
+
+$ "3.3айти в папку" cd 1
+
+$ "4. Создать три папки" mkdir 1 2 3
+
+$ "5. Зайти в созданную папку 2" cd 2
+
+$ "6.Cоздать 5 файлов" touch t_1.txt t_2.txt t_3.txt j_1.json j_2.json
+
+$ "7. Создать три папки" mkdir 5 6
+
+$ "8. Просмотреть содержимое папки"  ls -la
+total 4
+drwxr-xr-x 1 Alex 197121 0 Nov  1 17:14 ./
+drwxr-xr-x 1 Alex 197121 0 Nov  1 17:11 ../
+drwxr-xr-x 1 Alex 197121 0 Nov  1 17:14 5/
+drwxr-xr-x 1 Alex 197121 0 Nov  1 17:14 6/
+-rw-r--r-- 1 Alex 197121 0 Nov  1 17:13 j_1.json
+-rw-r--r-- 1 Alex 197121 0 Nov  1 17:13 j_2.json
+-rw-r--r-- 1 Alex 197121 0 Nov  1 17:13 t_1.txt
+-rw-r--r-- 1 Alex 197121 0 Nov  1 17:13 t_2.txt
+-rw-r--r-- 1 Alex 197121 0 Nov  1 17:13 t_3.txt
+
+$ "8. Просмотреть содержимое папки Pr_1" ls -al /d/Pr_1
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:48 ./
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:43 ../
+drwxr-xr-x 1 Alex 197121 0 Oct 30 17:52 P_1/
+ "9. Открыть файл 3.тхт для редактирования" vim 1_t.txt
+ "10. Написать в файле что-нибудь" i
+ "11. Cохранить запись и выйти" нажать Esc :wq нажать Enter
+ "12. Выйти из папки на уровень выше" cd ..
+ "13. Переместить любые два созданных файла в любую другую папку"
+$ mv ./2/{t_1.txt,t_2.txt} 3
+
+$ "14. Скопировать 2 файла в папку 4"
+ $ cp ./2/{j_1.json,j_2.json} 4
+============================================
+1*  Отправить http запрос на сервер.// 
+
+1-й способ
+
+Alex@Acer5742g MINGW64 /d/Pr_1
+$ curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   185  100   185    0     0   2032      0 --:--:-- --:--:-- --:--:--  2055{"age":"32","family":{"children":[["Alex",24],["Kate",12]],"pets":{"cat":{"age":3,"name":"Sunny"},"dog":{"age":4,"name":"Luky"}},"u_salary_1_5_year":4000},"name":"Vadim","salary":1000}
+
+И так можно
+Alex@Acer5742g MINGW64 /d/Pr_1
+$ curl -i "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   185  100   185    0     0   1913      0 --:--:-- --:--:-- --:--:--  1947HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 185
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Sun, 31 Oct 2021 14:56:06 GMT
+
+{"age":"32","family":{"children":[["Alex",24],["Kate",12]],"pets":{"cat":{"age":3,"name":"Sunny"},"dog":{"age":4,"name":"Luky"}},"u_salary_1_5_year":4000},"name":"Vadim","salary":1000}
+
+
+
+2*
+
+#!/bin/bash
+"Скрипт-файл!!!!! Урааааа!!!! Я его добила!!!!"
+echo "Мой первый скрипт!!!"
+mkdir P_1
+# 3айти в папку
+cd P_1
+# Создать три папки 
+mkdir Pap_1 Pap_2 Pap_3
+# Зайти в созданную папку Рар_2
+cd Pap_2
+# Cоздать 5 файлов
+touch 1.txt 2.txt 3.txt 4.json 5.json
+# Создать три папки
+mkdir {00..2}
+# Просмотреть содержимое папки
+ls -la
+# Переместить любые два созданных файла в любую другую папку
+mv 1.txt 2.txt 01
+# Просмотреть содержимое папки после переноса файлов
+ls -la 
+#Зайти в папку 01 для просмотра файлов перемещенных
+cd 01
+# Просмотреть содержимое папки 01 после переноса в него файлов
+ls -la
+
+РЕЗУЛЬТАТ ВЫПОЛНЕНИЯ:
+Alex@Acer5742g MINGW64 /d/1_Script
+$ ./Scr_1.sh
+Мой первый скрипт!!!
+mkdir: cannot create directory ‘P_1’: File exists
+mkdir: cannot create directory ‘Pap_1’: File exists
+mkdir: cannot create directory ‘Pap_2’: File exists
+mkdir: cannot create directory ‘Pap_3’: File exists
+mkdir: cannot create directory ‘00’: File exists
+mkdir: cannot create directory ‘01’: File exists
+mkdir: cannot create directory ‘02’: File exists
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:48 .
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 ..
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 00
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 01
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 02
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 1.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 2.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 3.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 4.json
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 5.json
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:48 .
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 ..
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 00
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:48 01
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:46 02
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 3.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 4.json
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 5.json
+total 4
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:48 .
+drwxr-xr-x 1 Alex 197121 0 Oct 31 16:48 ..
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 1.txt
+-rw-r--r-- 1 Alex 197121 0 Oct 31 16:48 2.txt
+
+
+КОНЕЦ
